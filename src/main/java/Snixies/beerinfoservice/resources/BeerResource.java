@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BeerResource {
     @RequestMapping("/{beerId}")
     public Beer getBeerInfo(@PathVariable("beerId") int beerId){
-        return new Beer(beerId, "Het bier dat bij deze Id hoort.");
+        return new Beer(beerId, "Het bier dat bij deze Id hoort.", "Beschrijving ervan.");
 
     }
 }

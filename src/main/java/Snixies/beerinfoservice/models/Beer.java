@@ -12,6 +12,8 @@ public class Beer {
         this.description = description;
     }
 
+    public Beer(){}
+
     public int getBeerId() {
         return beerId;
     }
